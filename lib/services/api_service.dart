@@ -3,7 +3,6 @@ import 'dart:io'; // PENTING: Untuk File
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/user_model.dart';
-import '../models/notification_model.dart'; // Jika ada model notifikasi
 import '../constants.dart';
 
 class ApiService {

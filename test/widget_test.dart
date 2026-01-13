@@ -7,8 +7,8 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const TheKomarsApp());
 
-    // Verify that Login text is present (Ganti pengecekan dari 'Initialization' ke 'Login')
-    expect(find.text('Login'), findsWidgets); // findsWidgets karena bisa ada di tombol dan judul
+    // Verify that The Komars text is present and Masuk button
     expect(find.text('The Komars'), findsOneWidget);
+    expect(find.text('Masuk'), findsOneWidget);
   });
 }
